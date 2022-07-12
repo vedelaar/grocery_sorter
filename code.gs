@@ -11,6 +11,7 @@ function onInstall(e) {
 
 const order = [
   "",
+  "Jumbo",
 "pitabroodjes",
 "kipreepjes",
 "drinken Derk",
@@ -48,6 +49,8 @@ const order = [
 "snoeptomaatjes",
 "tomaat",
 "blikje mais",
+  "AH",
+  "albert heijn",
 "gesneden ijsbergsla",
 "ijsbergsla",
 "fijngesneden andijvie",
@@ -59,8 +62,11 @@ const order = [
 "broodbeleg",
 "mini tortilla wraps",
 "kokosmelk",
-"kippenbouillon"
-
+"kippenbouillon",
+"markt",
+  "aardappels",
+  "dirk",
+  "appelmoes"
 ];
 
 function sort() {
