@@ -60,6 +60,7 @@ const order = [
 "appel",
 "kipfiletstukjes",
 "kipfilet",
+  "Smeerpathe",
 "geraspte kaas",
 "cheddar kaas",
 "broodbeleg",
