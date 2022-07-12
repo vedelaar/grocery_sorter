@@ -40,6 +40,7 @@ const order = [
 "kipkruiden",
 "nootmuskaat",
 "drinken Cas",
+  "vuilniszakken",
 "mini krieltjes",
 "broccoli",
 "sperziebonen",
