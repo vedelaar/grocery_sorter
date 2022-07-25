@@ -11,9 +11,12 @@ function onInstall(e) {
 
 const order = [
   "",
+
+
   "Jumbo",
 "pitabroodjes",
 "kipreepjes",
+"honing",
 "drinken Derk",
 "drinken Marieke",
 "halfvolle melk",
@@ -22,6 +25,9 @@ const order = [
 "vloeibare margarine",
 "kookroom light",
 "boter",
+"macaroni",
+"spaghetti",
+"tomatenpuree",
 "Patat",
 "Kroket",
 "Frikandel",
@@ -30,15 +36,18 @@ const order = [
   "currysaus",
 "mosterd",
 "rijst",
+"ketjap",
 "fajita kruiden",
 "taco kruiden",
 "salsasaus",
 "kerrie",
 "uienpoeder",
+"tijm",
 "majoraan",
 "peper",
 "zout",
 "kipkruiden",
+"rookworst",
 "nootmuskaat",
 "drinken Cas",
   "vuilniszakken",
@@ -48,10 +57,14 @@ const order = [
 "sperziebonen",
 "paprika",
 "Komkommer",
-"komkommer",
+"courgette",
 "snoeptomaatjes",
 "tomaat",
+"rundergehakt",
 "blikje mais",
+"blikje doperwten",
+
+
   "AH",
   "albert heijn",
 "gesneden ijsbergsla",
@@ -67,9 +80,16 @@ const order = [
 "mini tortilla wraps",
 "kokosmelk",
 "kippenbouillon",
+"kippenbouillonblokje",
+  "runderbouillonblokje",
+  "runderbouillon",
   "pompoenpit knackebrod",
+
+
 "markt",
   "aardappels",
+
+
   "dirk",
   "appelmoes"
 ];
