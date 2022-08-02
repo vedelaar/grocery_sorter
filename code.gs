@@ -44,6 +44,7 @@ const order = [
 "uienpoeder",
 "tijm",
 "majoraan",
+"paprikapoeder",
 "peper",
 "zout",
 "kipkruiden",
