@@ -64,7 +64,7 @@ const order = [
 "salsasaus",
 "kerrie",
 "uienpoeder",
-"uienpoeder",
+"knoflookpoeder",
 "komijn",
 "koriander",
 "gemberpoeder",
