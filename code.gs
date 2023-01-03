@@ -14,6 +14,8 @@ const order = [
 "kokend water",
 
 
+
+
 "Jumbo",
 "pitabroodjes",
 "Kipworstje",
@@ -40,21 +42,28 @@ const order = [
 "boter",
 "macaroni",
 "spaghetti",
+"gezeefde tomaten",
+"frito",
 "tomatenpuree",
 "tomatenblokjes",
 "chips",
 "Patat",
 "Rostirondjes",
+"Hamburger",
 "Kroket",
 "Frikandel",
 "spinazie",
 "Yildriz knoflooksaus",
+"Ketchup",
 "duyvis Aioli",
 "currysaus",
 "mayo",
 "Mayonaise",
 "mosterd",
+"Vermicelli",
 "rijst",
+"Woknoedels",
+"woksaus",
 "ketjap",
 "sambal",
 "gembersiroop",
@@ -64,6 +73,7 @@ const order = [
 "salsasaus",
 "kerrie",
 "uienpoeder",
+"knoflookpoeder",
 "knoflookpoeder",
 "komijn",
 "koriander",
@@ -82,10 +92,12 @@ const order = [
 "rookworst",
 "drinken Cas",
 "fruithapje",
+"Potjes Ties",
 "vuilniszakken",
 "allesreiniger",
 "mini krieltjes",
 "tauge",
+"Taugé",
 "broccoli",
 "witlof",
 "sperziebonen",
@@ -101,11 +113,13 @@ const order = [
 "blik mais",
 "blikje doperwten",
 "blik doperwten",
+"Gehakt",
 
 
 "AH",
 "albert heijn",
 "gesneden ijsbergsla",
+"Soepgroente",
 "ijsbergsla",
 "fijngesneden andijvie",
 "appel",
@@ -121,6 +135,7 @@ const order = [
 "Ovengebakken kip",
 "tortilla",
 "kokosmelk",
+"bouillon blokjes",
 "kippenbouillon",
 "kippenbouillonblokje",
 "runderbouillonblokje",
@@ -135,6 +150,7 @@ const order = [
 
 "dirk",
 "appelmoes"
+"Afbakbroodjes",
 
 
 ];
