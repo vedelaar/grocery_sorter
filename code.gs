@@ -149,8 +149,8 @@ const order = [
 
 
 "dirk",
-"appelmoes"
-"Afbakbroodjes",
+"appelmoes",
+"Afbakbroodjes"
 
 
 ];
