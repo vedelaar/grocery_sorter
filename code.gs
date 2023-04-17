@@ -1,7 +1,8 @@
 
 function onOpen(e) {
   DocumentApp.getUi().createAddonMenu()
-      .addItem('Start', 'sort')
+      .addItem('Home sort', 'homeSort')
+      .addItem('Store sort', 'storeSort')
       .addToUi();
 }
 
@@ -9,12 +10,155 @@ function onInstall(e) {
   onOpen(e);
 }
 
-const order = [
+const homeOrder = [
+"",
+
+"Trapkast",
+"drinken Derk",
+"drinken Marieke",
+"crystal clear",
+"crystalclear",
+"raak framboos",
+"limonade",
+"aanmaaksiroop",
+"raak zero framboos",
+"karvan cevitam",
+"frito",
+"tomatenblokjes",
+"chips",
+"blikje mais",
+"blik mais",
+"blikje doperwten",
+"blik doperwten",
+"aardappels",
+"appelmoes",
+"Afbakbroodjes"
+
+"Koelkast",
+"Kipworstje",
+"kipreepjes",
+"hamreepjes",
+"eieren",
+"halfvolle melk",
+"yoghurt",
+"vloeibare margarine",
+"becel voor op brood",
+"vloeibare margarine",
+"kookroom light",
+"boter",
+"Ketchup",
+"currysaus",
+"mayo",
+"Mayonaise",
+"mosterd",
+"sambal",
+"sweet chilisaus",
+"salsasaus",
+"mini krieltjes",
+"tauge",
+"Taugé",
+"broccoli",
+"witlof",
+"sperziebonen",
+"paprika",
+"Komkommer",
+"courgette",
+"snoeptomaatjes",
+"tomaat",
+"gesneden ijsbergsla",
+"ijsbergsla",
+"fijngesneden andijvie",
+"Smeerpathe",
+"Pate",
+"geraspte kaas",
+"geraspte 30+ kaas",
+"cheddar kaas",
+"broodbeleg",
+"kip voor op brood",
+"Ovengebakken kip",
+
+"Vriezer",
+"Patat",
+"Rostirondjes",
+"Hamburger",
+"Kroket",
+"Frikandel",
+"spinazie",
+"rundergehakt",
+"Gehakt",
+"Soepgroente",
+"kipfiletstukjes",
+"kipstukjes",
+"kipfilet",
+
+"Apotheker",
+"honing",
+"macaroni",
+"spaghetti",
+"tomatenpuree",
+"gezeefde tomaten",
+"Yildriz knoflooksaus",
+"rijst",
+"tortilla",
+"kokosmelk",
+"Woknoedels",
+"woksaus",
+"ketjap",
+"gembersiroop",
+"pitabroodjes",
+"zout",
+"rookworst",
+"drinken Cas",
+"fruithapje",
+"blikje ananas",
+"blik ananas",
+"pompoenpit knackebrod",
+"pompoenpitknackebrod",
+"Potjes Ties",
+
+"Kruiden",
+"kerrie",
+"uienpoeder",
+"knoflookpoeder",
+"knoflookpoeder",
+"komijn",
+"koriander",
+"gemberpoeder",
+"kurkuma",
+"djinten",
+"tijm",
+"majoraan",
+"paprikapoeder",
+"picadillokruiden",
+"peper",
+"kipkruiden",
+"nootmuskaat",
+
+"Overig",
+"kokend water",
+"bloem",
+"duyvis Aioli",
+"Vermicelli",
+"fajita kruiden",
+"taco kruiden",
+"cacao",
+"vuilniszakken",
+"allesreiniger",
+"appel",
+"bouillon blokjes",
+"kippenbouillon",
+"kippenbouillonblokje",
+"runderbouillonblokje",
+"Groentebouillon",
+"runderbouillon",
+"paneermeel",
+
+];
+
+
+const storeOrder = [
 "",
 "kokend water",
-
-
-
 
 "Jumbo",
 "pitabroodjes",
@@ -94,7 +238,6 @@ const order = [
 "rookworst",
 "drinken Cas",
 "fruithapje",
-"Potjes Ties",
 "vuilniszakken",
 "allesreiniger",
 "mini krieltjes",
@@ -117,7 +260,6 @@ const order = [
 "blik doperwten",
 "Gehakt",
 
-
 "AH",
 "albert heijn",
 "gesneden ijsbergsla",
@@ -134,37 +276,45 @@ const order = [
 "geraspte 30+ kaas",
 "cheddar kaas",
 "broodbeleg",
+"kip voor op brood",
 "Ovengebakken kip",
 "bouillon blokjes",
 "kippenbouillon",
 "kippenbouillonblokje",
 "runderbouillonblokje",
+"Groentebouillon",
 "runderbouillon",
+"paneermeel",
 "pompoenpit knackebrod",
 "pompoenpitknackebrod",
-
+"Potjes Ties",
 
 "markt",
 "aardappels",
 
-
 "dirk",
 "appelmoes",
 "Afbakbroodjes"
-
-
 ];
 
-function sort() {
+function homeSort() {
+  sort(homeOrder);
+}
+
+function storeSort() {
+  sort(storeOrder);
+}
+
+function sort(order) {
   let items = getSelectedText();
   Logger.log(JSON.stringify(items));
   items = selectedTextToArr(items);
   Logger.log(JSON.stringify(items));
-  items = doTheSort(items);
+  items = doTheSort(items, order);
   insertText(items.join("\n"));
 }
 
-function doTheSort(items) {
+function doTheSort(items, order) {
   items.sort(function (a, b) {
     a = a.toLocaleLowerCase();
     b = b.toLocaleLowerCase();
