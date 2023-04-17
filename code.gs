@@ -32,7 +32,7 @@ const homeOrder = [
 "blik doperwten",
 "aardappels",
 "appelmoes",
-"Afbakbroodjes"
+"Afbakbroodjes",
 
 "Koelkast",
 "Kipworstje",
