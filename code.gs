@@ -244,7 +244,6 @@ const storeOrder = [
 "nootmuskaat",
 "rookworst",
 "drinken Cas",
-"fruithapje",
 "vuilniszakken",
 "allesreiniger",
 "mini krieltjes",
@@ -266,6 +265,7 @@ const storeOrder = [
 "blikje doperwten",
 "blik doperwten",
 "Gehakt",
+"fruithapje",
 
 "AH",
 "albert heijn",
