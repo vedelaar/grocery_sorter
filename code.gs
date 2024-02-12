@@ -132,6 +132,7 @@ const homeOrder = [
 "Potjes Ties",
 "witte bonen in tomatensaus",
 "pijnboompitten",
+"eierkoeken",
 
 "Kruiden",
 "kerrie",
