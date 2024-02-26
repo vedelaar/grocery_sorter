@@ -100,6 +100,7 @@ const homeOrder = [
 "kipstukjes",
 "kipfilet",
 "hele kip",
+"vissticks",
 
 "Apotheker",
 "honing",
@@ -188,6 +189,7 @@ const homeOrder = [
 "runderbouillon",
 "paneermeel",
 "rozijnen",
+"rozijntjes",
 
 
 "Trapkast",
@@ -210,6 +212,7 @@ const homeOrder = [
 "chips",
 "blikje mais",
 "blik mais",
+"Klein blikje maïs",
 "blikje doperwten",
 "blik doperwten",
 "aardappels",
@@ -257,6 +260,7 @@ const storeOrder = [
 "zelfrijzend bakmeel",
 "vanillesuiker",
 "rozijnen",
+"rozijntjes",
 "citroensap",
 "drinken Derk",
 "Cola",
@@ -295,6 +299,8 @@ const storeOrder = [
 "Frikandel",
 "Kipstick",
 "Carrero / Mexicano",
+"viandel",
+"vissticks",
 "spinazie",
 "Yildriz knoflooksaus",
 "Ketchup",
@@ -363,6 +369,8 @@ const storeOrder = [
 "blikje doperwten",
 "blik doperwten",
 "Gehakt",
+"slavink",
+"slavinken",
 "witte bonen in tomatensaus",
 
 "AH",
@@ -385,6 +393,7 @@ const storeOrder = [
 "flinterdun",
 "salami",
 "roomkaas light",
+"roomkaas",
 "geraspte kaas",
 "geraspte 30+ kaas",
 "geraspte belegen 30+ kaas",
